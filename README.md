@@ -1,34 +1,86 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# <a href="https://pending-txn.vercel.app/">Pending Transaction</a>
 
-## Getting Started
+This <strong>Next App</strong> fetch the pending transactions on the Polygon Testnet using the Alchemy Node.
 
-First, run the development server:
+<br>
 
-```bash
-npm run dev
-# or
-yarn dev
+# Parameters 
+
+* Transaction Hash
+* Sender's Address 
+* Receiver's Address
+
+<hr>
+<br>
+
+<br>
+
+# Set Up on your machine
+
+### Open Your Terminal
+
+<br>
+
+### `cd` to the folder you want to start the project.
+
+<br>
+
+### Clone the Repository
+
+```
+git clone https://github.com/Megabyte-143/pending_txn.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<br>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Go to the <a href="https://dashboard.alchemyapi.io/">Alchemy</a>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+<br>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Create a new App
 
-## Learn More
+<img src="readme_assets/create_app.png" ></img>
 
-To learn more about Next.js, take a look at the following resources:
+<br>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Select the `Polygon Chain` and `Mumbai Testnet`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<img src="readme_assets/polygon_testnet.png" ></img>
 
-## Deploy on Vercel
+<br>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Create the APP.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<br>
+
+### Click on the view
+
+<img src="readme_assets/view_key.png" ></img>
+
+<br>
+
+### Copy the API Key
+
+<img src="readme_assets/copy_key.png" ></img>
+
+<br>
+
+### Paste the `API Key` in the `next.config.js`
+
+<img src="readme_assets/config.png" ></img>
+
+<br>
+
+### Run the App
+
+```
+npm run dev
+```
+
+<br>
+<br>
+
+# For Any Queries
+<div align="center">
+<a href="https://t.me/+kJl1BmcgYfo2YzM1"><img alt="TF" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/> </a></div>
+

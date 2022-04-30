@@ -5,7 +5,7 @@ const nextConfig = {
 
 module.exports = {
   env: {
-    API_KEY: 't3UmejZQZWfNp4LtsrwTivvZwHjqEbOT',
+    API_KEY: 'rAKgrwJgCZpBRpJIl591hMlzCs1xCuV-',
   },
   webpack: (config, { isServer }) => {
     if (!isServer) {

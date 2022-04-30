@@ -3,8 +3,6 @@ import { ethers } from 'ethers';
 import { config } from 'dotenv';
 config();
 
-const  API = process.env.API_KEY;
-
 export default function Home() {
 
   const [trans, setTrans] = useState([]);
@@ -21,6 +19,7 @@ export default function Home() {
       }
     });
   }
+
   useEffect(() => {
     loadTxn();
   }, [trans]);
@@ -36,5 +35,6 @@ export default function Home() {
         </div>
       ))}
     </div>
-  )
+  );
+
 }
